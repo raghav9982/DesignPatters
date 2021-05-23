@@ -1,6 +1,6 @@
 package pattern.factory.plan;
 
-public class ConcreteInternationalPlan extends PlanProduct {
+public class ConcreteProductInternationalPlan extends PlanProduct {
     @Override
     protected void setPlanRate() {
         rate = 7;

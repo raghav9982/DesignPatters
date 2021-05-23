@@ -4,11 +4,11 @@ public class ConcreteCreatorPlan {
    public static PlanProduct createPlan(String planType) {
 
        if (planType.equalsIgnoreCase("DOMESTIC")) {
-           return new ConcreteDomesticPlan();
+           return new ConcreteProductDomesticPlan();
        }
 
        if (planType.equalsIgnoreCase("INTERNATIONAL")) {
-           return new ConcreteInternationalPlan();
+           return new ConcreteProductInternationalPlan();
        }
        return null;
    }
