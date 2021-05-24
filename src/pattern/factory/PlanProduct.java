@@ -1,4 +1,4 @@
-package pattern.factory.plan;
+package pattern.factory;
 
 public abstract class PlanProduct {
 
